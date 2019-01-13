@@ -1,4 +1,4 @@
-package com.trx0eth7.tool;
+package com.trx0eth7.tool.scanner;
 
 import java.util.List;
 
