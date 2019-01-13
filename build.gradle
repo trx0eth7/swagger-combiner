@@ -11,6 +11,14 @@ repositories {
     jcenter()
 }
 
+configurations {
+    swaggerCodegen {
+        description = 'Swagger codegen sdk'
+    }
+}
+
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    implementation group: 'io.swagger.parser.v3', name: 'swagger-parser', version: '2.0.7'
+    swaggerCodegen group: 'io.swagger.codegen.v3', name: 'swagger-codegen-cli', version: '3.0.2'
 }
