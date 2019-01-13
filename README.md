@@ -1,2 +1,2 @@
-# swagger-divider
+# swagger-combiner
 Бибилиотека предназначенная для объединения документации REST API из нескольких yaml-файлов
